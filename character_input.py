@@ -7,4 +7,4 @@ def char_in(name, age, year, bday):
 
 
 print(char_in(input("What is your name? "),
-      (int(input("How old are you? "))), int(input("What year is it? ")), input("Have you had your birthday yet this year? (Y/N)")))
+      (int(input("How old are you? "))), int(input("What year is it? ")), input("Have you had your birthday yet this year? (Y/N) ")))
