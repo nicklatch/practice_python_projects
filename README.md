@@ -1,2 +1,2 @@
-# practice-_python_projects
+# practice_python_projects
 Random compilation of projects from practicepython.org
