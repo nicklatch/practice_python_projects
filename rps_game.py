@@ -2,6 +2,7 @@
 import sys
 
 print("ROCK, PAPER, SCISSORS")
+print("To quit, you must both enter QUIT")
 
 # Player 1
 p1_wins = 0
@@ -21,11 +22,11 @@ while True:  # Main game loop
     print()
     while True:  # Player input loop
         p1 = str(input(
-            "Player 1, chose your move wisely! | ROCK, PAPER, OR SCISORS: "))
+            "Player 1, chose your move wisely! | ROCK, PAPER, OR SCISORS: ")).upper()
         p2 = str(input(
-            "Player 2, chose your move wisely! | ROCK, PAPER, OR SCISORS: "))
+            "Player 2, chose your move wisely! | ROCK, PAPER, OR SCISORS: ")).upper()
         print()
-        if p1 == "quit" or p2 == "quit":
+        if p1 == "QUIT" or p2 == "QUIT":
             sys.exit()
         break
 
