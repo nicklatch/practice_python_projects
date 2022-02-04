@@ -21,9 +21,9 @@ def guess_num(cn):
             continue
         else:
             if tries == 1:
-                return "You guessed my number," + str(cn) + " in " + str(tries) + " try!"
+                return "You guessed my number, " + str(cn) + ", in " + str(tries) + " try!"
             else:
-                return "You guessed my number," + str(cn) + " in " + str(tries) + " tries!"
+                return "You guessed my number, " + str(cn) + ", in " + str(tries) + " tries!"
 
 
 comp_num = random.randint(1, 9)  # number to guess
