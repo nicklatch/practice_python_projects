@@ -15,5 +15,4 @@ def fib_func():
     return fibl
 
 
-# ui = int(input("How long of a Fibonacci sequence would you like? "))
 print(fib_func())
