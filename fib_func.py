@@ -1,7 +1,8 @@
 # Fibonacci
 
 
-def fib_func(ui):
+def fib_func():
+    ui = int(input("How long of a Fibonacci sequence would you like? "))
     fibl = []
     x = 0
     while len(fibl) < ui:
@@ -14,5 +15,5 @@ def fib_func(ui):
     return fibl
 
 
-usn = int(input("How long of a Fibonacci list would you like? "))
-print(fib_func(usn))
+# ui = int(input("How long of a Fibonacci sequence would you like? "))
+print(fib_func())
