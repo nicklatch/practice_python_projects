@@ -5,7 +5,7 @@ import sys
 
 def guess_num(cn):
     guess = 0
-    tries = 0
+    tries = 1
     while guess != cn or "exit":
         # player input
         guess = int(input("What number am I thinking of? Take a guess(1-9)! "))
